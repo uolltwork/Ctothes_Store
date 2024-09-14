@@ -1,0 +1,89 @@
+:root {
+  --success-color: #2691d9;
+  --error-color: #e74c3c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #999;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 460px;
+  border-radius: 0;
+  border: none;
+  background-color: white;
+  padding: 28px 42px;
+}
+
+.form-heading {
+  margin-bottom: 18px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  margin-bottom: 4px;
+  color: #666;
+  font-size: 18px;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding: 0 12px;
+}
+
+.form-control input:focus {
+  border: 2px solid #2691d9;
+}
+
+.form-error {
+  font-size: 18px;
+  margin-top: 4px;
+  color: #e74c3c;
+  display: none;
+}
+
+.form-decrit {
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+
+.main-btn {
+  width: 120px;
+  height: 46px;
+  font-size: 14px;
+  background-color: #ed1c24;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 580;
+}
+
+.main-btn:hover {
+  cursor: pointer;
+  background-color: rgb(0, 115, 255);
+}
+
+.activeError {
+  /*font-weight: 100;*/  
+  display: block;
+}
+
+.activeErrorOnInput {
+  border: 1px solid #e74c3c;
+}
